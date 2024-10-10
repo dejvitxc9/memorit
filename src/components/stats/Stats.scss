@@ -1,0 +1,57 @@
+.stats-container {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+td {
+  color: white;
+}
+
+tbody tr {
+  transition: background-color 0.3s ease;
+}
+thead tr:first-child{
+  background: linear-gradient(90deg, #c6ffdd, #fbd786, #f7797d);
+  color: #2d2d2d;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #3b3b3b;
+}
+tbody tr:nth-child(odd) {
+  background-color: #505050;
+}
+
+tbody tr:hover {
+  background-color: #696969;
+}
+
+tbody tr:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.stats-not-found {
+  margin: 20px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}

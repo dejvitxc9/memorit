@@ -1,0 +1,27 @@
+.navbar-item {
+  flex: 1;
+  border-radius: 1rem;
+  border: 1px solid #d1d1d1;
+  background-color: #3f3f3f;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-item:hover {
+  background-color: #505050;
+}
+
+.nabar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.level-selector {
+  text-align: center;
+}
+
